@@ -1,6 +1,6 @@
 title: 单元测试
 speaker: 楼教主
-url: #
+url: http://ppt.fed.tm/md/unit-testing.md
 transition: cards
 theme: dark
 
@@ -60,7 +60,7 @@ theme: dark
 ## 热门的单元测试框架
 ----
 
-![Testing Frameworks](/img/tests.png)
+![Testing Frameworks](/images/unit-testing/frameworks.png)
 
 
 
