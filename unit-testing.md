@@ -60,7 +60,7 @@ theme: dark
 ## 热门的单元测试框架
 ----
 
-![Testing Frameworks](/images/unit-testing/frameworks.png)
+![Testing Frameworks](/assets/unit-testing/frameworks.png)
 
 
 
