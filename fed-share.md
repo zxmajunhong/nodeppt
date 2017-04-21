@@ -1,9 +1,9 @@
-title: 前端体系与我们的产品
+title: 2017-04-21 - 前端体系与我们的产品
 speaker: 楼教主
 url: http://ppt.fed.tm/md/fed-share.md
 transition: slide
 theme: dark
-files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/css/font-awesome.min.css
+files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/css/font-awesome.min.css,/assets/js/common.js
 
 
 
@@ -42,12 +42,10 @@ files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/
 ====
 # Atwood定律 {:onclick="Slide.setIndex(2)"}
 ----
-
 ### Any application that can be written in JavaScript, will eventually be written in JavaScript.
 ## 任何能用js实现的应用最终一定会用js实现
-
-<br>
-<span class="text-success">例如本PPT</span>
+====
+### 例如本PPT
 [/magic]
 
 
@@ -65,7 +63,7 @@ files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/
 + ### <span class="text-success">H5游戏</span>：例如白鹭引擎基于canvas，类似以前flash开发
 + ### <span class="text-success">混合应用</span>：react-native, weex 的各种 Hybrid App
 + ### <span class="text-success">桌面应用</span>：NW.js, Electron, heX 开发各种客户端应用
-+ ### <span class="text-success">还有诸如</span>：WebVR，单片机，系统桌面UI，甚至是卫星上...
++ ### <span class="text-success">还有诸如</span>：WebVR，人工智能，单片机，系统桌面UI，甚至是卫星上...
 
 
 
@@ -79,6 +77,7 @@ files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/
 3. ## 个人技能往往是公司需求推进的
 4. ## 只有小公司需要全栈开发
 5. ## 大公司只需要某个领域的王者
+6. ## 目前 pc2人 移动3人，我打杂
 
 
 
@@ -90,7 +89,7 @@ files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/
 + ### 移动web开发，基于vue的单页应用为主
 + ### 不包括高级 css3, canvas 动效实现
 + ### 基于 nodejs 服务端服务开发
-+ ### 正尝试websocket进行即时方面的东西
++ ### 正尝试websocket即时方面的东西
 + ### 你能提供实际网站的，我们能扒...
 + ### 在这之外的技术开发时间是无法估量的
 
@@ -115,7 +114,23 @@ files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/
 
 [slide]
 
+[magic data-transition="vertical3d"]
+## 目前除了前3个领域，其他领域我们人手不足
+====
+## 我们一些前端群500到1000人的
+#### 会高级css3的不到3人，视觉H5的寥寥无几，90%的人都只是传统前端
+====
+### 为什么我们不会高级css3，为什么我们不研究视觉h5，为什么这些人人才那么少？
+====
+## 因为需求少
+#### 主流的依然是传统前端，只有大公司才会有专业用户体验的前端
+====
+### 整天加班，哪来时间学习新技术？
+### 时间成本有谁计算过？
+### 有多少人现在能坚持每天学习的？
+====
 ## 现在理解东哥的苦衷了吧
+[/magic]
 
 
 
@@ -160,6 +175,20 @@ files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/
 [/magic]
 
 
+ 
+[slide]
+
+# 交互原型
+----
+
++ ### 前端除了切图之外
++ ### 我们需要把所有页面联系起来
++ ### 需要知道哪些地方点击后发生了什么
++ ### 需要知道哪些地方的动效应该是什么样的
++ ### 需要在设计出图前整理出数据接口，搭建基础框架
++ ### 这些都需要基于交互稿完成
+
+
 
 [slide]
 
@@ -171,7 +200,7 @@ files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/
 
 ====
 
-### 出图来蹂躏前端的人
+### 出图来蹂躏前端的人 {:.text-info}
 
 ====
 
@@ -194,8 +223,8 @@ files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/
 ====
 ## 理想中 - 我们可以做酷炫屌炸天的页面
 ## 理想中 - 我们可以做帅到没朋友的交互
-----
-## 是什么导致东哥每次都说这个做不了
+====
+## 究竟是什么导致东哥每次都说这个做不了
 [/magic]
 
 
@@ -226,7 +255,7 @@ files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/
 ## 理想的设计稿
 ----
 
-### 风格，组件，动效，UI 统一
+### 风格、组件、动效、UI 统一
 
 
 
@@ -236,10 +265,15 @@ files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/
 #### 虽然对前端而言只是一个UI框架，但他包含了所有的统一规范 {:.gray2}
 ----
 
-+ ### Material Design
 + ### [Ant Design](https://ant.design)
-+ ### Semantic-UI
++ ### [Element](http://element.eleme.io)
++ ### [Semantic-UI](https://semantic-ui.com)
++ ### [Material Design](https://material.io)
++ ### [Google Design](https://design.google.com)
 
+<br>
+
+Google Design 包括了 Web, Android, TV, VR 等设计交互规范 {:.gray2}
 
 
 [slide]
@@ -265,9 +299,10 @@ files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/
 <i class="fa fa-pie-chart"></i>
 <i class="fa fa-file-video-o"></i>
 <i class="fa fa-cog"></i>
+<i class="fa fa-spinner fa-spin"></i>
 </p>
 
-<p class="text-success">
+<p class="text-success" style="font-size:30px;">
 <i class="fa fa-apple"></i>
 <i class="fa fa-android"></i>
 <i class="fa fa-github"></i>
@@ -279,8 +314,12 @@ files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/
 <i class="fa fa-pie-chart"></i>
 <i class="fa fa-file-video-o"></i>
 <i class="fa fa-cog"></i>
+<i class="fa fa-spinner fa-spin"></i>
 </p>
 
+<br>
+
+[阿里巴巴矢量图标库](http://www.iconfont.cn/)
 
 
 [slide]
@@ -290,7 +329,7 @@ files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/
 
 ## 中文字体一直是一个痛点，之前都只能切图
 
-## [字蛛](http://font-spider.org/)
+# [字蛛](http://font-spider.org/)
 ### 让前端直接显示中文字体成为现实
 
 
@@ -303,7 +342,7 @@ files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/
 [magic data-transition="move"]
 ### [Animate.css](https://daneden.github.io/animate.css/)
 ====
-### 其他动效，有时间可以给你扒
+### 其他动效，有时间我们可以现场扒
 ====
 ### 但 three.js、d3.js 除外，完全是另一个领域的东西了
 [/magic]
@@ -341,8 +380,19 @@ files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/
 
 # 最后说说页面还原度的问题
 
-元素间距，内边距，
+元素间距，内边距，hover，字体大小，背景透明度，背景色值，边框圆角大小，各种图标很凌乱，
+一组类似的元素宽度内外边距等不统一，大图背景的页面下面页面背景色的过渡没考虑，
+不了ios,安卓设备常见BUG导致的设计问题，如ios标题没办法动态修改，微信没办法直接分享，文字引导分享会被警告必须作图，用户输入时的键盘弹层会遮挡底部输入框等等问题。
 
+
+
+[slide]
+
+## 小结
+
+我希望基于这一些规范来达到交互设计前端的合作默契
+
+让大家都更方便、更快捷、更好用、更规范
 
 
 
@@ -354,5 +404,5 @@ files: /assets/fed-share/css/loaders.min.css,/assets/fed-share/css/font-awesome/
 
 [slide]
 
-# END
+# Thank
 
