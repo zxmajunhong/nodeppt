@@ -18,7 +18,7 @@ theme: dark
 ---
 
 + ## 各种机型层出不穷 {:&.rollIn}
-+ ## 即时同一种机型，也有各种版本 android4.1、4.2、ios6、ios7...
++ ## 即使同一种机型，也有各种版本 android4.1、4.2、ios6、ios7...
 + ## 调试困难，bug往往无法再现
 
 
@@ -42,12 +42,12 @@ theme: dark
 # 调试移动端时 也许你会发现 {:style="margin-top:-2em"}
 ----
 
-+ ## 上面说的这些 统统没有~~ {:&.rollIn}
++ ## 上面说的这些 统统木有~~ {:&.rollIn}
 
 
 [slide]
 
-# 那么有木有一些比较工具可以解决我们的问题呢
+# 那么有没有一些比较工具可以解决我们的问题呢
 ----
 
 
@@ -58,31 +58,70 @@ theme: dark
 
 + ## alert、console {:&.rollIn}
 + ## vconsole
-+ ## chrome-DevTools
++ ## chrome remote devices
 + ## weinre
 + ## 微信web开发者工具
-+ ## browser-sync
 
 
 [slide]
 
-# 线上代码调试
+# 线上代码真机调试
 ----
 
 + ## 调试普通h5 {:&.rollIn}
-+ ## 调试app内嵌的webview
++ ## 调试webview
 
 
 [slide]
 
-# 一些注意点
+# 工具的选择与使用
 ----
 
-+ ## android跟ios调试，可能不完全一样 {:&.rollIn}
-+ ## 调试webview时，部分工具需app端允许调试功能
+[slide]
+
+# chrome remote devices
+
++ ## 需要数据线，手机端允许usb调试  {:&.rollIn}
++ ## 点击Inspect出现空白（被墙了，翻墙试试）
++ ## android跟ios调试，不完全一样（mac需要使用safari浏览器）
++ ## uc上无法使用此方法（微信）
++ ## 调试webview时，需app端允许调试功能
 
 
 [slide]
+
+# weinre
+
++ ## 无需数据线，但配置稍嫌麻烦 {:&.rollIn}
++ ## 需要向我们的页面中注入代码
++ ## 支持android跟ios调试，基本一样
++ ## 不支持断点调试
++ ## 安装：npm install -g weinre
++ ## 启动: weinre --boundHost [hostname | ip address |-all-]  --httpPort [port]
+
+
+[slide]
+
+# 微信web开发者工具
+
++ ## 内置weinre，不过操作较weinre更简单 {:&.rollIn}
++ ## 不需要向我们的页面注入代码
++ ## 需要查看微信js-sdk的时候选择（比如做微信登陆、微信分享之类功能的时候）
+
+
+[slide]
+
+# 一些参考资料
+----
+
++ ## https://developers.google.com/chrome-developer-tools/docs/remote-debugging
++ ## https://developers.google.com/web/tools/chrome-devtools/remote-debugging/webviews
++ ## http://www.cnblogs.com/lvdabao/p/3436620.html
++ ## https://github.com/youkinn/remote-debugging
+
+
+[slide]
+
 
 # OVER
 ----
