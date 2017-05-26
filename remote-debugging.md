@@ -84,8 +84,8 @@ theme: dark
 + ## 需要数据线，手机端允许usb调试  {:&.rollIn}
 + ## 点击Inspect出现空白（被墙了，翻墙试试）
 + ## android跟ios调试，不完全一样（mac需要使用safari浏览器）
-+ ## uc上无法使用此方法（微信）
 + ## 调试webview时，需app端允许调试功能
++ ## uc上无法使用此方法
 
 
 [slide]
@@ -116,8 +116,9 @@ theme: dark
 
 + ## https://developers.google.com/chrome-developer-tools/docs/remote-debugging
 + ## https://developers.google.com/web/tools/chrome-devtools/remote-debugging/webviews
-+ ## http://www.cnblogs.com/lvdabao/p/3436620.html
++ ## http://www.cnblogs.com/xiaofeixiang/p/4993812.html
 + ## https://github.com/youkinn/remote-debugging
++ ## https://mp.weixin.qq.com/wiki
 
 
 [slide]
