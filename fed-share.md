@@ -1,5 +1,6 @@
-title: 2017-04-21 - 前端体系与我们的产品
+title: 前端体系与我们的产品
 speaker: 楼教主
+date: 2017-04-21
 url: http://ppt.fed.tm/md/fed-share.md
 transition: slide
 theme: dark

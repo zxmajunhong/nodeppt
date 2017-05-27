@@ -1,8 +1,9 @@
-title: 2017-04-20 - 有关组件、模块等封装的写法
+title: 有关组件、模块等封装的写法
 speaker: 马俊鸿
+date: 2017-04-20
 url: https://github.com/ksky521/nodePPT
 transition: cards
-date: 20174月18日
+
 
 [slide]
 

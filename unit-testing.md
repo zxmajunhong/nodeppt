@@ -1,5 +1,6 @@
-title: 2017-03-08 - 单元测试
+title: 单元测试
 speaker: 楼教主
+date: 2017-03-08
 url: http://ppt.fed.tm/md/unit-testing.md
 transition: cards
 theme: dark

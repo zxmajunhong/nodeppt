@@ -1,5 +1,6 @@
-title: 2017-04-26 - Prettier
+title: Prettier
 speaker: 楼教主
+date: 2017-04-26
 url: http://ppt.fed.tm/md/prettier.md
 transition: cards
 theme: dark

@@ -1,5 +1,6 @@
-title: 2017-05-19 - 移动端远程调试技巧
+title: 移动端远程调试技巧
 speaker: yex
+date: 2017-05-19
 url: http://ppt.fed.tm/md/remote-debugging.md
 transition: cards
 theme: dark
