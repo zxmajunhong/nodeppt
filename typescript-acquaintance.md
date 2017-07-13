@@ -1,5 +1,6 @@
 title: typescript 的讨论分享----初识
 speaker: 马俊鸿 
+date: 2017-07-14
 url: http://ppt.fed.tm
 transition: zoomin
 
